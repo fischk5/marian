@@ -56,12 +56,7 @@ const config = {
             type: 'doc',
             docId: 'quickstart',
             position: 'left',
-            label: 'Quick Start',
-          },
-          {
-            to: 'blog',
-            position: 'left',
-            label: 'Blog',
+            label: 'Docs',
           },
           {
             href: 'https://tetheros.com/login',

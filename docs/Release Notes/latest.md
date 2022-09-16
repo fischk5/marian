@@ -1,5 +1,5 @@
 ---
-id: v0.1.20
+id: latest
 sidebar_position: 1
 ---
 
