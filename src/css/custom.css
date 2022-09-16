@@ -1,0 +1,36 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #174061;
+  --ifm-color-primary-dark: #103049;
+  --ifm-color-primary-darker: #0b1e2e;
+  --ifm-color-primary-darkest: #051b2c;
+  --ifm-color-primary-light: #1e5583;
+  --ifm-color-primary-lighter: #205885;
+  --ifm-color-primary-lightest: #2e77b3;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #83b7e2;
+  --ifm-color-primary-dark: #255983;
+  --ifm-color-primary-darker: #1a4d77;
+  --ifm-color-primary-darkest: #174061;
+  --ifm-color-primary-light: #4083bb;
+  --ifm-color-primary-lighter: #64a2d4;
+  --ifm-color-primary-lightest: #6bbbfc;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
