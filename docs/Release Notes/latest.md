@@ -3,37 +3,38 @@ id: latest
 sidebar_position: 1
 ---
 
-# v0.1.20 (latest)  
-## Where is the latest budget spreadsheet again???
-Version v0.1.20 introduces `resources` to make it easy to track the location of shared digital assets.  Version 1 of the feature allows users to abstract web links with descriptions and keywords for discoverability.  
+# v0.1.21 (latest) 
   
-[![Resources](../assets/v0120-resources-3.png)](../assets/v0120-resources-3.png)  
-  
-## Can you send a link to the landing page?  
-Hyperlinks in text found throughout the application are clickable, including in:  
-- Comments  
-- Posts  
-- Descriptions  
-  
-## "Assign that to me, please."  
-The tooling for changing owners has been updated for a more modern experience:  
-  
-[![Owner Gadget](../assets/v0120-owner-gadget.png)](../assets/v0120-owner-gadget.png)  
+## How Much Have We Fundraised So Far?  
 
+Introducing a more thought-out KPI dashboard:  
+  
+[![Dashboard](../assets/v0121-kpi-dashboard.png)](../assets/v0121-kpi-dashboard.png)  
+  
+Click on a KPI to go to it's hub:  
+  
+[![KPI](../assets/v0121-kpi-page.png)](../assets/v0121-kpi-page.png)  
+  
+And view changes to the value over time using the filter above.  
+  
+## I Forgot My Password... Again  
+  
+Instead of logging out and clicking `Forgot Password` it's now possible to reset your password directly in the app!  
+  
+Just go to [Settings](https://tetheros.com/settings) and follow the prompts to update your password.  
 
-## Highlights
+## Version Highlights
   
 **Major Changes**  
-- Add first version of `resources`: links to digital locations  
-- Rebuild hyperlinking in posts, descriptions, and comments  
-- Modify the assignment behavior tooling for a better, more modern, experience
+- Significant improvement to KPI interactions  
+- Allow users to reset their passwords while authenticated
   
 **Minor Changes**  
-- Remove workspace filter from My Desk  
-- Show loading symbol for My Desk  
-- Add a search feature for linking goals or subgoals  
+- Show percentage complete of workspace components in the sidebar  
+- Update sidebar links to guide users to feedback portal and documentation site  
+- Allow initiatives to track raw work, like boards and lists  
+- Allow users to delete posts made to the workspace feed  
+- Capture additional metadata (`creator_id` and `completor_id`) to WorkspaceComponents for future analytics  
   
 **Fixed Bugs**  
-- New users no longer errantly redirected to /welcome after new registration  
-- Context shown in sidebar now refreshes more accurately when quickly changing focused component  
-- Calendar "show more" modal no longer appears off screen
+Unfortunately, all existing bugs survived this release.

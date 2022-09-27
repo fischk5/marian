@@ -3,7 +3,22 @@ id: All
 sidebar_position: 4
 ---
 
-# Older
+# Older  
+  
+## v0.1.18
+  
+**Major Changes**  
+- RBAC in Networks  
+- My Desk calendar improvements: filter by workspace  
+- Add new application users to a Convertkit tag when signing up  
+- Limited opening of a token-based API for managing KPIs
+  
+**Minor Changes**  
+- Routing accommodations for landing pages when unauthenticated  
+- Allow new private workspace members to receive a role when being added  
+- Improved board performance  
+- Calendars now show components on date they were completed, regardless of whether or not they had a due date  
+- Allow deleting of network teams
 
 ## v0.1.17  
 **Major Changes**  
