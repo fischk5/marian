@@ -1,9 +1,34 @@
 ---
 id: All
-sidebar_position: 4
+sidebar_position: 10000
 ---
 
 # Older  
+
+# v0.1.19
+
+Highlights:  
+  
+**Major Changes**  
+- Overhaul task, goal, and initiative pages with sidebar and more information at a glance  
+- Increase private workspace user limit to 40  
+- Improve User, Role, Team, and Workspace management for Networks  
+- Massively improve the function and role of Initiatives in a workspace  
+- Introduce Initiatives at the network level
+  
+**Minor Changes**  
+- Fix Bug: descriptions of components overwrote with previous state on render  
+- Fix bug: login redirection on incorrect password  
+- Small improvements to the calendar appearance and function  
+- New tasks appear at the top of columns and lists  
+- Load comments faster 
+- Load MyDesk faster 
+- Show network workspaces in the sidebar  
+- Visual improvements to cards on a board  
+- Allow most titles to be updated inline instead of through a modal  
+- Improved navigation among aligned components  
+- Handle status change impacts on server side (state assignments for tasks on a board)  
+- Improved network membership and security
   
 ## v0.1.18
   

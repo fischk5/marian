@@ -3,38 +3,68 @@ id: latest
 sidebar_position: 1
 ---
 
-# v0.1.21 (latest) 
+# Latest (version 0.1.22)  
   
-## How Much Have We Fundraised So Far?  
+---
 
-Introducing a more thought-out KPI dashboard:  
+**Released:** October 5, 2022  
+**Focus:** Easier user management to make platform growth easier  
+---  
+We're getting ready to offer the paid version of Tetheros later this year, so we're turning our focus to the non-sexy updates of payment processing, user activity auditing, and taxes.  
   
-[![Dashboard](../assets/v0121-kpi-dashboard.png)](../assets/v0121-kpi-dashboard.png)  
+Woo!  
   
-Click on a KPI to go to it's hub:  
+On top of that, we're starting to hear feedback around platform use and introduced improvements to make it easier to grow your team.  This release includes:  
+- **[Easier team growth](#easier-team-growth):** Add users to your workspace who aren't on Tetheros
+- **[Network activity](#network-activity):** Glance at how active your teammates are (networks only)
+- **[Catalog improvements](#catalog-improvements):** More options at your fingertips 
+- **[Goal form appearance](#goal-form-appearance):** Update UI to appear more consistent with other areas
+- **[Initiative calendars](#initiative-calendars):** See all your connected ideas in one calendar  
+- **[Activity metadata capture](#activity-metadata-capture):** More data around how your team operates
   
-[![KPI](../assets/v0121-kpi-page.png)](../assets/v0121-kpi-page.png)  
+If you'd like to know what's coming down the pipeline, check out **[the roadmap](/docs/roadmap)**.  
+# Team Management  
   
-And view changes to the value over time using the filter above.  
+### Easier team growth  
+Invite others that aren't on Tetheros to join your **private workspace**:  
   
-## I Forgot My Password... Again  
+[![Invite Users](../assets/v0122-invite-users.gif)](../assets/v0122-invite-users.gif)  
   
-Instead of logging out and clicking `Forgot Password` it's now possible to reset your password directly in the app!  
-  
-Just go to [Settings](https://tetheros.com/settings) and follow the prompts to update your password.  
+They will receive an email if they don't have an account on Tetheros.  If they have an account, they will be automatically added to your private workspace if you have enough seats available.  
 
-## Version Highlights
+### Network activity  
+See who is considered an active user in your network under the **Network Users** panel.  
   
-**Major Changes**  
-- Significant improvement to KPI interactions  
-- Allow users to reset their passwords while authenticated
+[![Network Activity](../assets/v0122-network-activity.gif)](../assets/v0122-network-activity.gif)  
   
-**Minor Changes**  
-- Show percentage complete of workspace components in the sidebar  
-- Update sidebar links to guide users to feedback portal and documentation site  
-- Allow initiatives to track raw work, like boards and lists  
-- Allow users to delete posts made to the workspace feed  
-- Capture additional metadata (`creator_id` and `completor_id`) to WorkspaceComponents for future analytics  
+Active users are considered anyone who has authenticated to your network since the beginning of the current month.  For license purposes, this will be updated to reflect the beginning of your billing cycle instead of the beginning of the month... unless, of course, your billing cycle begins at the start of each month.
+# Digital Catalog  
   
-**Fixed Bugs**  
-Unfortunately, all existing bugs survived this release.
+### Catalog improvements
+Catalogs now include `KPI` and `Resource` items to make it easier than ever to paint the picture of your work.   
+  
+[![Catalog Improvements](../assets/v0122-catalog-improvements.gif)](../assets/v0122-catalog-improvements.gif)  
+  
+### Goal form appearance  
+The catalog form to create a new goal was visually updated to match styles in other areas of Tetheros.  
+  
+[![Goal form improvements](../assets/v0122-goal-form-improvements.gif)](../assets/v0122-goal-form-improvements.gif)  
+
+# Clarity  
+
+### Initiative calendars
+Initiatives now display all aligned items on a single calendar.  You can filter what is shown by type. 
+  
+[![Initiative calendar](../assets/v0122-initiative-calendar.gif)](../assets/v0122-initiative-calendar.gif)  
+  
+Future improvements will focus on bringing more clarity to anything aligned here, including assignments, alternative views, and analytics.
+### Activity metadata capture  
+Tetheros is now keeping track of who is getting more work done 😎  
+  
+When an item is completed:  
+- **If it has an owner,** the owner will be marked as the `completor` even if someone else marked the item complete.  
+- **If it has no owner,** the user that marks the item complete will receive credit for completing it.  
+  
+---  
+Thoughts?  Comments?  Haiku?  **[Send it our way](mailto:ideas@tetheros.com)**
+  
