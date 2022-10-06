@@ -1,5 +1,2 @@
-docker --version
-docker stop marian
-docker rm marian
-docker rmi marian
-docker build -t marian ./
+docker image prune -fa
+docker build -t gcr.io/teak-runner-335620/marian:latest ./

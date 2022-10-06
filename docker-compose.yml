@@ -1,0 +1,24 @@
+version: "3"
+services:
+  marian:
+    image: gcr.io/teak-runner-335620/marian:latest
+    # ports:
+    # - 8080:8080
+    expose:
+    - 8080
+  nginx-marian:
+    image: nginx
+    ports:
+    - 80:80
+    - 443:443
+    volumes:
+      - "/home/kevin/nginx.conf:/etc/nginx/nginx.conf"
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
+  certbot:
+    image: certbot/certbot
+    container_name: certbot
+    volumes: 
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
+    command: certonly --webroot -w /var/www/certbot --force-renewal --email kevin@tetheros.com -d docs.tetheros.com --agree-tos -v
