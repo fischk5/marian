@@ -22,10 +22,10 @@ export default function HomepageFeatures() {
         <div>
           <div>Read about the latest updates to the Tetheros platform.</div>
           <ul className="feature-link-list">
-            <Link to="/docs/Release Notes/latest">Latest (v0.1.22)</Link>
+            <Link to="/docs/Release Notes/latest">Latest (v0.2.0)</Link>
+            <Link to="/docs/Release Notes/v0.1.22">Oct 5, 2022 (v0.1.22)</Link>
             <Link to="/docs/Release Notes/v0.1.21">Sept 27, 2022 (v0.1.21)</Link>
-            <Link to="/docs/Release Notes/v0.1.20">Sept 16, 2022 (v0.1.20)</Link>
-            <Link to="/docs/Release Notes/all">Older Releases</Link>
+            <Link to="/docs/Release Notes/older">Older Releases</Link>
           </ul>
         </div>
       )

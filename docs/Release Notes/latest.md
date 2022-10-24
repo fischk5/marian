@@ -3,68 +3,97 @@ id: latest
 sidebar_position: 1
 ---
 
-# Latest (version 0.1.22)  
+# Latest (version 0.2.0)  
   
 ---
 
-**Released:** October 5, 2022  
-**Focus:** Easier user management to make platform growth easier  
+**Released:** October 24, 2022  
+**Focus:** Licensing updates and assignment clarity
 ---  
-We're getting ready to offer the paid version of Tetheros later this year, so we're turning our focus to the non-sexy updates of payment processing, user activity auditing, and taxes.  
+As our licensing model matures and becomes more clear, we're making updates on the front and back end of Tetheros to provide a crystal clear experience for your tier.  Anyone who has been part of Tetheros to this point was given an `Alpha` license which allows for 5 private workspaces with a 40-user limit.  
   
-Woo!  
+*Changes made this release completely disrupted the permissions and authorization ecosystem, so we thought a minor version update was appropriate.*  
   
-On top of that, we're starting to hear feedback around platform use and introduced improvements to make it easier to grow your team.  This release includes:  
-- **[Easier team growth](#easier-team-growth):** Add users to your workspace who aren't on Tetheros
-- **[Network activity](#network-activity):** Glance at how active your teammates are (networks only)
-- **[Catalog improvements](#catalog-improvements):** More options at your fingertips 
-- **[Goal form appearance](#goal-form-appearance):** Update UI to appear more consistent with other areas
-- **[Initiative calendars](#initiative-calendars):** See all your connected ideas in one calendar  
-- **[Activity metadata capture](#activity-metadata-capture):** More data around how your team operates
+Enter: **v0.2.0**
+  
+This release includes:  
+- **[License-driven permissions](#license-updates):** All user entitlements are determined by license tier  
+- **[My Desk assignment improvements](#my-desk-assignment-improvements):** An unpolished version of your workspace-specific assignments  
+- **[Initiative assignment clarity](#initiative-assignments):** Manage initiative-aligned items from one place    
+- **[Private workspace user activity](#private-workspace-user-activity):** How active are your teammates?  
+- **[Workspace dashboard improvements](#workspace-dashboard-improvements):** Manage all workspace items from the dashboard 
+- **[Home feed adjustments](#):** Uncluttering and shifting workspace activity for easier consumption 
+
   
 If you'd like to know what's coming down the pipeline, check out **[the roadmap](/docs/roadmap)**.  
+# Product Experience  
+  
+### License Updates  
+
+All users now have a license to track their entitlements, which currently include:  
+- **Private Workspace Limit** - Maximum private workspaces a user can create  
+- **Private Workspace User Limit** - Total number of people the user is allowed to have in each private workspace they own  
+- **Network** - Whether or not they have access to a network  
+  
+Go to [Your Settings](https://tetheros.com/settings) to view your current license:  
+[![License](../assets/v020-workspace-2.png)](../assets/v020-workspace-2.png)  
+  
+As of this version, these are all available licenses:   
+  
+| **Tier** | **Private Workspace Limit** | **Private Workspace User Limit** | **Network** |
+| --- | --- | --- | --- | 
+| Basic | 1 | 5 | ❌ |   
+| Pro | 1 | 5 | ✅ |   
+| Founder | 10 | 40 | ✅ |   
+| Alpha | 5 | 40 | ❌ |   
+  
+If an `Alpha` upgrades to a `Pro` license, they forfeit the right to additional workspaces if they haven't used them.  Existing workspaces are not taken away, nor are the users above the allowed limit.  
+  
+If a workspace already has users above the limit, no additional users may be added, but existing users will not be removed.  Any users removed while the workspace is hosting more than its limit will not be able to come back until the workspace has user capacity again.  
+  
+[![Workspace users limit](../assets/v020-workspace-1.png)](../assets/v020-workspace-1.png)  
+
+### Home feed adjustments  
+  
+The home feed now shows create, delete, and complete component operations in the right sidebar:  
+  
+[![Home feed](../assets/v020-home-feed.png)](../assets/v020-home-feed.png)  
+  
+This improvement relaxes the activity on the main feed to only display posts from teammates in the workspace.
+ 
 # Team Management  
   
-### Easier team growth  
-Invite others that aren't on Tetheros to join your **private workspace**:  
-  
-[![Invite Users](../assets/v0122-invite-users.gif)](../assets/v0122-invite-users.gif)  
-  
-They will receive an email if they don't have an account on Tetheros.  If they have an account, they will be automatically added to your private workspace if you have enough seats available.  
+### Private workspace user activity  
+The last activity of a user in a private workspace is shown on the `Members` tab:  
 
-### Network activity  
-See who is considered an active user in your network under the **Network Users** panel.  
+[![Workspace activity](../assets/v020-workspace-activity-1.png)](../assets/v020-workspace-activity-1.png)  
   
-[![Network Activity](../assets/v0122-network-activity.gif)](../assets/v0122-network-activity.gif)  
+Enables you to know when your teammates are active - part of a larger ongoing effort to build user visibility into the application.  
   
-Active users are considered anyone who has authenticated to your network since the beginning of the current month.  For license purposes, this will be updated to reflect the beginning of your billing cycle instead of the beginning of the month... unless, of course, your billing cycle begins at the start of each month.
-# Digital Catalog  
-  
-### Catalog improvements
-Catalogs now include `KPI` and `Resource` items to make it easier than ever to paint the picture of your work.   
-  
-[![Catalog Improvements](../assets/v0122-catalog-improvements.gif)](../assets/v0122-catalog-improvements.gif)  
-  
-### Goal form appearance  
-The catalog form to create a new goal was visually updated to match styles in other areas of Tetheros.  
-  
-[![Goal form improvements](../assets/v0122-goal-form-improvements.gif)](../assets/v0122-goal-form-improvements.gif)  
+Users that have no logged any activity are noted as `Inactive` (shown above).  
 
 # Clarity  
+  
+### Initiative assignments  
+Anything aligned with an initiative can be viewed in tabular form in the `Assignments` tab of the initiative:  
+  
+[![Initiative Assignments](../assets/v020-initiative-assignments.gif)](../assets/v020-initiative-assignments.gif)  
+  
+Manage the due dates and owners of any item in the assignments tab.  
+  
+### Workspace dashboard improvements  
+  
+Manage the ownership and due dates of all items in a workspace from the `Dashboard` panel:  
+  
+[![Dashboard assignments](../assets/v020-dashboard-assignments.gif)](../assets/v020-dashboard-assignments.gif)  
 
-### Initiative calendars
-Initiatives now display all aligned items on a single calendar.  You can filter what is shown by type. 
   
-[![Initiative calendar](../assets/v0122-initiative-calendar.gif)](../assets/v0122-initiative-calendar.gif)  
+### My Desk assignment improvements  
+My Desk now shows all your uncompleted assignments across all workspaces you are a member of.  
   
-Future improvements will focus on bringing more clarity to anything aligned here, including assignments, alternative views, and analytics.
-### Activity metadata capture  
-Tetheros is now keeping track of who is getting more work done 😎  
+[![My Desk Assignments](../assets/v020-mydesk-assignments.gif)](../assets/v020-mydesk-assignments.gif)  
   
-When an item is completed:  
-- **If it has an owner,** the owner will be marked as the `completor` even if someone else marked the item complete.  
-- **If it has no owner,** the user that marks the item complete will receive credit for completing it.  
+Later, you will be able to manage all assignments from here.  For now you can only review and navigate from this panel.
   
 ---  
 Thoughts?  Comments?  Haiku?  **[Send it our way](mailto:ideas@tetheros.com)**
-  
