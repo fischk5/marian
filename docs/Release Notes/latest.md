@@ -3,97 +3,99 @@ id: latest
 sidebar_position: 1
 ---
 
-# Latest (version 0.2.0)  
+# Latest (v0.2.1)  
   
 ---
 
-**Released:** October 24, 2022  
-**Focus:** Licensing updates and assignment clarity
+**Released:** November 23, 2022  
+**Focus:** Project engagement and user experience  
 ---  
-As our licensing model matures and becomes more clear, we're making updates on the front and back end of Tetheros to provide a crystal clear experience for your tier.  Anyone who has been part of Tetheros to this point was given an `Alpha` license which allows for 5 private workspaces with a 40-user limit.  
+
+The term `initiative` is confusing, especially since the main user base has client-focused project teams, not enterprise business department groups.  We decided to re-introduce initiatives as **projects**.  
   
-*Changes made this release completely disrupted the permissions and authorization ecosystem, so we thought a minor version update was appropriate.*  
+This release features revisions to projects (formerly, initiatives) along with a much-needed application facelift!
   
-Enter: **v0.2.0**
-  
-This release includes:  
-- **[License-driven permissions](#license-updates):** All user entitlements are determined by license tier  
-- **[My Desk assignment improvements](#my-desk-assignment-improvements):** An unpolished version of your workspace-specific assignments  
-- **[Initiative assignment clarity](#initiative-assignments):** Manage initiative-aligned items from one place    
-- **[Private workspace user activity](#private-workspace-user-activity):** How active are your teammates?  
-- **[Workspace dashboard improvements](#workspace-dashboard-improvements):** Manage all workspace items from the dashboard 
-- **[Home feed adjustments](#):** Uncluttering and shifting workspace activity for easier consumption 
+It also includes:  
+- **[New User Interface](#user-interface):** A better header, sidebar, and color scheme to improve look and feel
+- **[Projects](#projects):** Initiatives are now called projects, and they're way better 
+- **[Home Page Improvements](#home-page-improvements):** Initiatives are now called projects, and they're way better 
+- **[Breadcrumb Navigation](#breadcrumb-navigation):** Quickly align and see where items fit in the workspace ecosystem 
+- **[Better Component Information](#better-component-information):** Improved layout for the About section of components 
+- **[Easier Description Editing](#easier-description-editing):** Change your description with the click of a mouse 
+- **[Project Dashboard Improvements](#project-dashboard-improvements):** A far more action-based dashboard than before 
+- **[Squashed Bugs: 3](#squashed-bugs-3):** Resizing, routing, and overwriting... be gone! 
 
   
 If you'd like to know what's coming down the pipeline, check out **[the roadmap](/docs/roadmap)**.  
-# Product Experience  
+## User Interface  
+A few areas of the UI were updated to be more practical and pleasant:  
   
-### License Updates  
-
-All users now have a license to track their entitlements, which currently include:  
-- **Private Workspace Limit** - Maximum private workspaces a user can create  
-- **Private Workspace User Limit** - Total number of people the user is allowed to have in each private workspace they own  
-- **Network** - Whether or not they have access to a network  
+**Header**  
   
-Go to [Your Settings](https://tetheros.com/settings) to view your current license:  
-[![License](../assets/v020-workspace-2.png)](../assets/v020-workspace-2.png)  
+[![Header](../assets/v021-header.png)](../assets/v021-header.png)  
   
-As of this version, these are all available licenses:   
+Updates:  
+- New paint job  
+- Menu for profile, settings, feedback, and logging out  
+- Your first and last name, just in case you don't remember (yay, *personalization*)  
   
-| **Tier** | **Private Workspace Limit** | **Private Workspace User Limit** | **Network** |
-| --- | --- | --- | --- | 
-| Basic | 1 | 5 | ❌ |   
-| Pro | 1 | 5 | ✅ |   
-| Founder | 10 | 40 | ✅ |   
-| Alpha | 5 | 40 | ❌ |   
+**Sidebar**  
   
-If an `Alpha` upgrades to a `Pro` license, they forfeit the right to additional workspaces if they haven't used them.  Existing workspaces are not taken away, nor are the users above the allowed limit.  
+[![Sidebar](../assets/v021-sidebar.png)](../assets/v021-sidebar.png)  
   
-If a workspace already has users above the limit, no additional users may be added, but existing users will not be removed.  Any users removed while the workspace is hosting more than its limit will not be able to come back until the workspace has user capacity again.  
-  
-[![Workspace users limit](../assets/v020-workspace-1.png)](../assets/v020-workspace-1.png)  
-
-### Home feed adjustments  
-  
-The home feed now shows create, delete, and complete component operations in the right sidebar:  
-  
-[![Home feed](../assets/v020-home-feed.png)](../assets/v020-home-feed.png)  
-  
-This improvement relaxes the activity on the main feed to only display posts from teammates in the workspace.
+Updates:  
+- New colors
+- Consolidated sections  
+- Removed icons to modernize feel
  
-# Team Management  
-  
-### Private workspace user activity  
-The last activity of a user in a private workspace is shown on the `Members` tab:  
 
-[![Workspace activity](../assets/v020-workspace-activity-1.png)](../assets/v020-workspace-activity-1.png)  
+## Projects  
+Initiatives are now called Projects (they always *were* projects, but the name didn't really fit our users)  
   
-Enables you to know when your teammates are active - part of a larger ongoing effort to build user visibility into the application.  
+[![Project Page](../assets/v021-projects.png)](../assets/v021-projects.png)  
   
-Users that have no logged any activity are noted as `Inactive` (shown above).  
+Most information is moved into the right side and the main top area features the project description.  Useful for briefing your team on an effort at a glance.  
+  
+For now, the progress will show your timeline and task completion.  Task completion is only one aspect of the project (projects are also a function of goals).  Future improvements will highlight project goals and measurements.
+  
+## Home Page Improvements
+The [**home page was updated**](https://tetheros.com/welcome) with an improved look and feel.  It also has a lot more information about Tetheros now!
+  
+[![Home Page](../assets/v021-homepage.png)](../assets/v021-homepage.png)  
+  
+(ironically, it doesn't have updated assets for the application UI at release... oops!)
 
-# Clarity  
+## Breadcrumb Navigation
+Lists, boards, goals, and projects feature breadcrumbs at the top that indicate where the component fits into the big picture.  
   
-### Initiative assignments  
-Anything aligned with an initiative can be viewed in tabular form in the `Assignments` tab of the initiative:  
+Items lacking an alignment can quickly be connected with any active projects by clicking `Set Project Alignment`:  
   
-[![Initiative Assignments](../assets/v020-initiative-assignments.gif)](../assets/v020-initiative-assignments.gif)  
-  
-Manage the due dates and owners of any item in the assignments tab.  
-  
-### Workspace dashboard improvements  
-  
-Manage the ownership and due dates of all items in a workspace from the `Dashboard` panel:  
-  
-[![Dashboard assignments](../assets/v020-dashboard-assignments.gif)](../assets/v020-dashboard-assignments.gif)  
+[![Breadcrumbs](../assets/v021-breadcrumbs.png)](../assets/v021-breadcrumbs.png)  
 
+
+## Better Component Information  
+Lists, goals, and projects now feature specific items in their about page.  Shown below: projects.  
+
+[![About](../assets/v021-about.png)](../assets/v021-about.png)  
   
-### My Desk assignment improvements  
-My Desk now shows all your uncompleted assignments across all workspaces you are a member of.  
+
+## Easier Description Editing  
+Descriptions can be edited on the fly - no more losing work because you didn't click "save" after you finished adding the project brief.  
+
+[![Descriptions](../assets/v021-descriptions.gif)](../assets/v021-descriptions.gif)   
+
+## Project Dashboard Improvements  
+Project dashboards no longer show lists and boards - they are being treated as separate from overall "assignments".  
+
+Later releases will build on this idea - trust us!  
+
+## Squashed Bugs: 3  
+We got three (and found a few others, but they crawled away)!  
+- Description text resizes based on scrollheight instead of line breaks  
+- Fix component fetching overwriting display names being actively edited
+- Fix routing problem when user session expires but localStorage indicates they are still authenticated  
   
-[![My Desk Assignments](../assets/v020-mydesk-assignments.gif)](../assets/v020-mydesk-assignments.gif)  
-  
-Later, you will be able to manage all assignments from here.  For now you can only review and navigate from this panel.
-  
+Find any others?  **[Let us know](mailto:ideas@tetheros.com)**
+
 ---  
 Thoughts?  Comments?  Haiku?  **[Send it our way](mailto:ideas@tetheros.com)**
