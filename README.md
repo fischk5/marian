@@ -151,3 +151,15 @@ docker-compose up -d marian nginx-marian
 After it starts, test the routes and redirects for:  
 - `http://docs.tetheros.com`  
 - `https://docs.tetheros.com`  
+  
+## HOW TO RENEW THE CERTIFICATE MANUALLY (GCP)
+  
+1. ssh to the `marian` compute engine
+1. Validate the certbot image is still on the host: `docker images`  
+1. Update docker-compose.yml file (located at `/home/kevin` ) with the `command` line for certbot as: `certonly --webroot -w /var/www/certbot --force-renewal --dry-run --email kevin@tetheros.com -d docs.tetheros.com --agree-tos -v` (note the presence of `dry-run`).  This forces the command to run a test only.  
+1. Run `docker-compose up -d --no-deps certbot; docker logs certbot -f`  
+1. If successful, change the command to remove `dry-run` (triage if not successful)
+1. Run `docker-compose up -d --no-deps certbot; docker logs certbot -f`  
+1. Restart nginx (`docker-compose restart nginx-marian`)
+1. Validate production certificate  
+1. Remove the docker container (`docker rm certbot`)  
