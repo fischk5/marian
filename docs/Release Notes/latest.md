@@ -3,65 +3,42 @@ id: latest
 sidebar_position: 1
 ---
 
-# Latest (v0.2.3)  
+# Latest (v0.2.5)  
   
 ---
 
-**Released:** December 31, 2022  
-**Focus:** Onboarding and resources
+**Released:** February 23, 2022  
+**Focus:** Timeline
 ---  
 
-It's not only important to equip your team with resources and context, it's also important to strategically onboard them into new efforts. 
-
-This release features tools to help you operationalize your team quicker.  It is a small and mighty release.  
+Introducing the `Timeline`: a tool that makes coordinating complicated campaigns a whole lot easier.     
   
-The rundown:  
-- **[Workspace Onboarding](#workspace-onboarding):** Greet your team when they enter the (virtual) door
-- **[Project Resources](#project-resources):** Quick access to contextually relevant information for the project
-- **[Workspace About](#workspace-about):** Fly your flag for all to see and liven up the personality of your workspace
-- **[Task Optics](#task-optics):** Did we get that one thing done that we had to do yesterday?
-- **[Slimmer Resources Page](#slimmer-resource-page):** No more giant rows.  Sleeker and more familiar resources layout.
-  
-## Workspace Onboarding  
-Create a custom message (using Markdown) for new teammates to see when they visit the workspace for the first time.  
-
-An onboarding message, which you can enable from the workspace settings, allows efficient communication to users in your workspace to quickly get them up to speed.  
-
-[![Onboarding Message](../assets/v023-onboarding-message.png)](../assets/v023-onboarding-message.png)  
-  
-Customize and activate your onboarding message from the `Settings` menu of the workspace:  
-  
-[![Onboarding Setup](../assets/v023-onboarding-setup.png)](../assets/v023-onboarding-setup.png)  
-  
-## Project Resources  
-Store all the relevant resources directly in the project to improve context for everyone.  
-
-[![Project Resources](../assets/v023-resource-view.png)](../assets/v023-resource-view.png)  
-  
-Note: all resources can be located in the Resources page of the workspace, even if they aren't linked with a project.
-## Workspace About  
-Fly your flag for all to see and liven up the personality of your workspace with an official description!  
-
-[![Workspace About](../assets/v023-workspace-about.png)](../assets/v023-workspace-about.png)  
-  
-Change the description in workspace settings.
-  
-## Task Optics  
-See what was recently completed, deleted, or archived from the workspace feed:  
-
-[![Workspace About](../assets/v023-task-optics.png)](../assets/v023-task-optics.png)  
-  
-## Slimmer Resource Page  
-The resource page appearance was given a facelift to make more fit on the screen and remove the unnecessary design complexities.  
-
-[![Resources page](../assets/v023-resource-page.png)](../assets/v023-resource-page.png)  
-
+More below.  This release includes:  
+- **[Timeline](#timeline):** Coordinate complex workstreams from a visual time-based view
+- **Card Colors:** Cards on a board can be assigned a color for more personality (and inner beauty)
+- **Workspace Verification:** Workspaces in a network now have a badge indicating their status
+- **Network Projects & Goals:** Removed network-level projects and goals (for now)
+- **Assignment Table Filters:** Filters now behave more intuitively.  They got weird for a minute.
+- **Performance Improvements:** Boards and tasks now purr like a high-performance collaboration platform
   
 If you'd like to know what's coming down the pipeline, check out **[the roadmap](/docs/roadmap)**.  
+  
+## Timeline  
+  
+Timelines allow you to organize task schedules and delivery across any channel in visualized workstreams.  
+  
+[![Timelines](../assets/v025-timeline.png)](../assets/v025-timeline.png)  
+  
+Create, edit, and complete work across workstreams from a single view - regardless of how the individual workstreams are setup.  
+  
+- Add any workstream to a Timeline  
+- See all tasks that aren't scheduled... then schedule them  
+- Update, assign, and complete any tasks in a timeline  
 
-## Squashed Bugs: 1  
-We got 1 (and found a few others, but they crawled away)!  
-- Resolve lag and display issues that presented when switching between workspace components too quickly 
+## Bugs   
+  
+- Creating a post in a workspace updates user activity  
+- Fixed flickering when moving cards around on a board
   
 Find any others?  **[Let us know](mailto:ideas@tetheros.com)**
 
