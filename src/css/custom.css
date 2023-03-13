@@ -51,3 +51,119 @@ body {
 .navbar__item.navbar__link {
   font-size: 14px;
 }
+
+.docs-page-main-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.docs-page-main-container h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+.docs-page-main-cta {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.docs-page-main-product-versioning {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.docs-page-main-product-versioning span {
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 120px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 4px 24px;
+  border-radius: 4px;
+  background-color: #000000;
+  color: white;
+}
+
+.button.button--secondary.button--lg {
+  background-color: #3d72aa;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 60px;
+  border-radius: 28px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.button.button--secondary.button--lg svg {
+  font-size: 24px;
+}
+
+.button.button--secondary.button--lg:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.docs-page-main-container p {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(78, 78, 78);
+  margin: 0;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.feature-container {
+  flex-basis: 45%;
+  padding: 20px 28px;
+  box-sizing: border-box;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 16px;
+}
+
+.feature-container h3 {
+  margin: 0;
+}
+
+.feature-icon-outer {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-icon-outer svg {
+  color: #3d72aa;
+}
+
+@media screen and (max-width: 996px) {
+  .docs-page-main-container h1 {
+    font-size: 32px;
+  }
+
+  .button.button--secondary.button--lg {
+    font-size: 14px;
+  }
+
+  .docs-page-main-product-versioning span {
+    font-size: 12px;
+    padding: 2px 16px;
+  }
+
+  .docs-page-main-container p {
+    font-size: 16px;
+  }
+}
