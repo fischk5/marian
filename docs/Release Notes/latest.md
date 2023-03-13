@@ -3,42 +3,58 @@ id: latest
 sidebar_position: 1
 ---
 
-# Latest (v0.2.5)  
+# Latest (v0.2.6)  
   
 ---
 
-**Released:** February 23, 2022  
-**Focus:** Timeline
+**Released:** March 13, 2023  
+**Focus:** Membership Management
 ---  
 
-Introducing the `Timeline`: a tool that makes coordinating complicated campaigns a whole lot easier.     
+Introducing a new toolset for managing network members, permissions, and teams.       
   
-More below.  This release includes:  
-- **[Timeline](#timeline):** Coordinate complex workstreams from a visual time-based view
-- **Card Colors:** Cards on a board can be assigned a color for more personality (and inner beauty)
-- **Workspace Verification:** Workspaces in a network now have a badge indicating their status
-- **Network Projects & Goals:** Removed network-level projects and goals (for now)
-- **Assignment Table Filters:** Filters now behave more intuitively.  They got weird for a minute.
-- **Performance Improvements:** Boards and tasks now purr like a high-performance collaboration platform
+This release includes:  
+- **[Network Members Panel:](#network-members-panel)** Control and permit users in your network with a greater set of tools and visibility  
+- **[Custom Roles:](#custom-roles)** Cards on a board can be assigned a color for more personality (and inner beauty)
+- **[Sidebar improvements:](#sidebar-improvements)** Removed network-level projects and goals (for now)
   
 If you'd like to know what's coming down the pipeline, check out **[the roadmap](/docs/roadmap)**.  
   
-## Timeline  
+## Network Members Panel  
   
-Timelines allow you to organize task schedules and delivery across any channel in visualized workstreams.  
+*Pro licenses only*   
+
+Control and permit users in your network with a greater set of tools and visibility.  
+
+![Members Panel](../assets/v026-members-pane.gif)  
   
-[![Timelines](../assets/v025-timeline.png)](../assets/v025-timeline.png)  
+The network members panel allows you to:  
+- Add multiple new users to the network at a time 
+- View pending email invitations  
+- Create, update, and delete Teams and their access  
+- Build custom roles for users and teams to use across different network workspaces  
   
-Create, edit, and complete work across workstreams from a single view - regardless of how the individual workstreams are setup.  
+ 
+   
+## Custom Roles  
+
+*Pro licenses only*  
+
+Create custom permission sets that can be assigned to an individual user or a team in a network.    
   
-- Add any workstream to a Timeline  
-- See all tasks that aren't scheduled... then schedule them  
-- Update, assign, and complete any tasks in a timeline  
+![Custom Roles](../assets/v026-custom-roles.gif)  
+
+   
+## Sidebar improvements  
+
+The workspace sidebar now self-organizes according to projects, workstreams and views to reduce clutter and provide better context.  
+
+[![Sidebar](../assets/v026-sidebar-new.png)](../assets/v026-sidebar-new.png)  
+  
+Expand projects to see all related workstreams, or create a new workstream independent of a project.  
 
 ## Bugs   
-  
-- Creating a post in a workspace updates user activity  
-- Fixed flickering when moving cards around on a board
+- Fixed error that prevented the "wrong password" snackbar from appearing during a failed login attempt 
   
 Find any others?  **[Let us know](mailto:ideas@tetheros.com)**
 
