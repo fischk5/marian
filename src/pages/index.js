@@ -7,6 +7,18 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
+export default function Home() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <Layout title={`Tetheros Guide`} description="Getting started in Tetheros, a modern collaboration platform.">
+      <HomepageHeader />
+      <main>
+        <HomepageFeatures />
+      </main>
+    </Layout>
+  );
+}
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -19,17 +31,5 @@ function HomepageHeader() {
         </div>
       </div>
     </header>
-  );
-}
-
-export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout title={`Tetheros Guide`} description="Getting started in Tetheros, a modern collaboration platform.">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
   );
 }

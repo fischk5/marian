@@ -49,7 +49,7 @@ const config = {
           alt: 'Tetheros logo',
           src: 'img/logov1-basicblue.svg',
           srcDark: 'img/logov1-white.svg',
-          target: '_self'
+          href: '/'
         },
         items: [
           {
@@ -57,6 +57,21 @@ const config = {
             docId: 'quickstart',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            to: 'blog',
+            position: 'left',
+            label: 'Blog',
+          },
+          {
+            to: 'bugs/report',
+            position: 'right',
+            label: 'Report a bug',
+          },
+          {
+            to: 'features/request',
+            position: 'right',
+            label: 'Request a feature',
           },
           {
             href: 'https://tetheros.com/login',
