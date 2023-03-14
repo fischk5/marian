@@ -35,6 +35,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+input,
+textarea {
+  font-family: -apple-system, 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .feature-link-list {
   list-style: none;
   list-style-type: none;
@@ -147,6 +154,80 @@ body {
 
 .feature-icon-outer svg {
   color: #3d72aa;
+}
+
+.form-container {
+  width: 40%;
+  min-width: 400px;
+  margin-left: 48px;
+  margin-top: 48px;
+}
+
+.form-title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.form-container p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.form-container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #3d72aa;
+  border-radius: 32px;
+  border: none;
+  padding: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.form-container button svg {
+  font-size: 20px;
+}
+
+.form-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.form-section-heading {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form-section-subheading {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.form-section input,
+.form-section textarea {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  resize: none;
+  border: 1px solid #174061;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.form-section textarea {
+  min-height: 8em;
+  padding: 16px;
 }
 
 @media screen and (max-width: 996px) {
