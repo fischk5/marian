@@ -1,138 +1,266 @@
 ---
 sidebar_position: 2
----
-
-# Quickstart
-Welcome to the world's most powerful professional platform for professional alignment.  Select an item below to jump to it:  
-- [**Tetheros Basics:**](#tetheros-basics) How to navigate your workspace  
-- [**Use Cases:**](#use-cases)  How to know if Tetheros can help you achieve your mission  
-- [**Main features:**](#main-features)  Explore the platform's capabilities  
-  
----  
-  
-**How To...**  
-- [**Get Started:**](#quick-start) Watch a quick 8-minute video about basic navigation 
-  
-## Tetheros Basics  
-Your mission is divided into several layers to give you flexibility and visibility into your work:  
-
-[![Hierarchy](./assets/v023-tetheros-hierarchy.png)](./assets/v023-tetheros-hierarchy.png)  
-  
 ---  
 
-**Networks** represent your entire business, division, or team.  They group workspaces into a common organization, and allow creating specific roles and teams for access and permission.  Networks are also capable of hosting projects, goals, and content shared among different workspaces in the network.  *Requires a Pro license or higher*.  
+# Quickstart  
   
----  
-**Workspaces** are a logical group of work, often used to represent a department or a client.  Workspaces allow you to organize distinct efforts and measure their success using projects or standalone components (like boards and lists).  The primary benefit of a workspace is how it exposes your team's alignment and progress.  
-  
-What could a workspace represent?  
-- A single client's portfolio of projects ⬅ ***recommended***
-- Departments or teams in your business
-- Volunteer effort 
-- A recurring event
-  
----  
-**Projects** are efforts made by your team that have a start and finish.  Add workstreams, goals, and resources to project that help shape the purpose and progress you're making.  Tetheros offers many ways to customize projects to fit your team's preferences for work styles and communication.  
-  
-Use projects for:  
-- Client projects  
-- Event planning  
-- Business initiatives  
-- General operations  
-  
----  
-**Components** are the tools you have for getting work done.  These include tasks, ways for *organizing* tasks, goals, and many more.  Components allow you to approach the mission your way.  Tetheros allows you to create components from a catalog and connect them to other items in your workspace.  Don't have a "project" at the moment but need to track some work?  Create a board or list.  Want to independently measure how many followers your social media page has?  Create a KPI just for that.  Or lump everything together into a project if that's what you need.  
-  
-Common component types:  
-- Checklists  
-- Boards (card-style Kanban)  
-- KPIs  
-- Goals  
-- Resources (hyperlinks, documents, etc)  
-  
-As Tetheros grows, the available workspace component catalog will grow too.
+<small>Updated for version <code>v0.2.6</code></small>  
 
-## Use Cases  
-Employ Tetheros for a wide variety of missions, including (but not limited to):  
+Welcome to the world's most powerful professional platform for professional alignment.  
   
-### Design & Digital Marketing Agencies  
-Improve your profitablilty with Tetheros with better operational efficiency.  
+In this tutorial, we'll:  
+- [Create an account](#create-an-account)  
+- [Setup a project](#setup-a-project)  
+- [Create tasks](#create-project-tasks)  
+- [Build a goal](#build-a-project-goal)  
+- [Add a resource](#add-a-workspace-resource)  
   
-| Requirement | Value |  
-| --- | --- |  
-| **Organizing client projects** | Create an individual `workspace` for every client to independently track their projects and all associated resources |  
-| **Tracking client success** | Define client-specific `Key Performance Indicators` to track over time.  Connect them to active projects to report on, and view, how your efforts deliver measurable results for your clients.  |  
-| **Progress reporting** | Grant limited workspace view access to clients so they can communicate with your team and see progress without giving them the keys to the Chevy.  |  
-| **Business operations** | Create workspaces for your actual business to track internal projects, growth metrics, and administration tasks  |  
-| **Strategic planning** | Set goals and targets for your team and business in Tetheros that provide context to every move you make  |  
-| **Project delivery** | Build boilerplate templates for every stage of your projects to eliminate the busywork of "setting up" projects (which significantly improves how billable your team is)  |  
-| **Content creation** | Use kanban boards, checklists, and calendars to create and visualize every stage and platform you're creating content for |  
+Let's get started!  
   
----  
+## Create an account  
+  
+1. Head to [**https://tetheros.com/register**](https://tetheros.com/register) to create a new account  
+  
+[![Register](./assets/quickstart-register.png)](./assets/quickstart-register.png)
+  
+2. Enter a name, an email address, and a password.  
+  
+Tetheros will automatically log you in and present you with the **onboarding wizard**:  
 
-### TEDx Event Planning  
-Spend less time organizing your team and volunteers and more time delivering outcomes toward your next salon, studio, or TEDx event.  
-  
-| Requirement | Value |  
-| --- | --- |  
-| **Volunteer onboarding** | Create custom onboarding processes for new members to get them connected and operational, automatically |  
-| **Event metrics** | Track and set goals for ticket sales, video views, social media engagement, Net Promoter Scores, and anything else your chapter wants to measure  |  
-| **Nonprofit operations** | Build clear processes and workflows for every team, especially attendee experience, sponsorship, and curation.  |  
-| **Fundraising** | Track and record the status of different sponsors and donors with custom stages from start to finish.  Overtime, use your historical data to improve your relationships.  |  
-| **Community engagement** | Build templates of tasks for the team to strategically connect with the community and audience pre- and post-event  |  
-| **Task management** | Create and assign tasks around your team to track overall progress toward the big day |  
-| **Content creation** | Use kanban boards, checklists, and calendars to create and visualize every stage and platform you're creating content for |  
-  
-If you are a TEDx organizer, please reach out directly for discounted licensing. *Tetheros is not officially sponsored by TEDx or TED.*  
+[![Onboard Welcome](./assets/quickstart-onboard-1.png)](./assets/quickstart-onboard-1.png)
 
-## Main Features
-A brief look at some of the tools in Tetheros:  
+<br/>  
+
   
----  
-  
-### Tasks  
-Tasks are the basic unit of work.  Assign, complete, and comment your way to victory!  
-  
-[![Project](./assets/v023-task-modal.png)](./assets/v023-task-modal.png)  
+## Setup a project 
   
 
----
+1. Pick a name for your **workspace**.  
   
-### Projects  
-**Projects** offer a single place to organize work, goals, and resources for a single effort.  
+<details>
+  <summary><strong>What is a Workspace?</strong></summary>
+  <div>
+    <div>Workspaces store everything you and your team are working on.  All of your projects, tasks, goals, and posts live inside a single workspace.</div>
+  </div>
+</details>  
   
-[![Project](./assets/v023-project-page.png)](./assets/v023-project-page.png)  
+
   
----  
+[![Name your workspace](./assets/quickstart-onboard-2.png)](./assets/quickstart-onboard-2.png)
+ 
   
-### Boards  
-**Boards** allow your team to organize tasks in workflows, kanban-style.  
+Typically, workspaces are named after your business or team.  Since workspaces can hold unlimited projects, you usually don't want to name the workspace after a project.  Example workspace names:  
+- `Marketing Department`  
+- `TEDxMinneapolis`  
+- `Arnold's Freelance Work`  
   
-[![Project](./assets/v023-board.png)](./assets/v023-board.png)  
+<br/>  
+
+:::info
+
+You can change your workspace name at any time.
+
+:::  
+
+<br/>
   
----
+
+2. Choose a **workspace focus:**  
   
-### Lists  
-**Lists** are simple ways to track tasks without any complexity.  
   
-[![Project](./assets/v023-list.png)](./assets/v023-list.png)  
+[![Choose a workspace focus](./assets/quickstart-onboard-3.png)](./assets/quickstart-onboard-3.png)
   
----
   
-### Goals  
-**Goals** let you track progress of a key performance indicator or manually.  
+The **workspace focus** decides which items are initially created for you in your workspace.  If you skip this, your workspace will start empty.  Here are the possible options:  
   
-[![Project](./assets/v023-goals.png)](./assets/v023-goals.png)  
+| Workspace Focus | Project | Generated Workstreams |    
+| --- | --- | --- | --- |  
+| `Basic Projects` | Yes | Master Project Task List (Checklist) |   
+| `Design Projects` | Yes | Project Tasks (Kanban Board) |   
+| `Event Planning` | Yes | Master Event Task List (Checklist) |  
   
----
+3. Create an initial list of **tasks** to complete (optional).  
   
-### Resources  
-**Resources** connect Tetheros to external files, folders, and websites.  
+Tetheros will redirect you to your new **Project** when you are done with the wizard.  
   
-[![Project](./assets/v023-resources.png)](./assets/v023-resources.png)  
+<details>
+  <summary><strong>What is a Project?</strong></summary>
+  <div>
+    <div>Projects are a high level item in a workspace.  They represent... projects!</div>
+    <br/>
+    <div>From the project page you can view all linked tasks, goals, and edit or view the timeline and description.</div>
+  </div>
+</details>  
   
----
+
+[![Review your project](./assets/quickstart-project-0.png)](./assets/quickstart-project-0.png)
+
+
+<br/>  
+
   
-## Quick Start  
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u0I2R1itVx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+## Create project tasks  
+
+In Tetheros, **tasks** don't live directly in a project. They live in **workstreams**.  
+  
+<details>
+  <summary><strong>What is a Workstream?</strong></summary>
+  <div>
+    <div>Workstreams are a specific method of organizing tasks, ranging from simple Checklists to multi-column Boards.</div>
+    <br/>
+    <div>How you decide to organize tasks is up to you. </div>
+  </div>
+</details> 
+  
+
+Create additional workstreams directly in a project anytime it makes sense to separate work.  A workstream was already set up for the project, so navigate to it by clicking on it in the Project or selecting it from the sidebar.  
+  
+  
+[![Navigate to workstream](./assets/quickstart-project-1.png)](./assets/quickstart-project-1.png)  
+  
+Interact with the workstream - a list or board - to create additional tasks.  Click directly on a task after creating it to make changes to its:  
+- Owner  
+- Due date  
+- Description  
+- Status  
+  
+<details>
+  <summary><strong>How do workstreams and tasks relate to projects?</strong></summary>
+  <div>
+    <div>Workstream progress contributes to <strong>project progress</strong>.</div>
+    <br/>
+    <div>This means if you complete 100% of the tasks in a workstream connected to a project, the project will reflect that progress accordingly.  Projects serve many purposes - tracking shared progress across multiple workstreams is one of them.</div>
+    <br/>
+    <div>Goals behave the same way; as goal progress increases, the project's overall progress meter increases as well.</div>
+    <br/>
+    <div><strong style={{color: "green"}}>In Tetheros, a project's progress is a reflection of the progress of everything aligned underneath (workstreams and goals).</strong></div>
+  </div>
+</details>  
+  
+
+
+[![Update tasks](./assets/quickstart-project-2.png)](./assets/quickstart-project-2.png)  
+
+
+  
+
+<br/>  
+
+  
+  
+
+## Build a project goal  
+  
+To create a goal for the project, you first need to add a new **KPI**.  A KPI is the raw data used to create a goal.  
+  
+<details>
+  <summary><strong>What is the difference between a Goal and a KPI?</strong></summary>
+  <div>
+    <div>A <strong>KPI</strong> is the raw data or measurement of something.  For example, "savings account balance" or "load time".  It exists as a big dumb piece of data with no opinion on what it should or shouldn't be.  Just an honest measurement.</div>
+    <br/>
+    <div>A <strong>Goal</strong> sets a target for a KPI to become.</div>
+    <br/>
+    <div>For example:</div>
+    <br/>
+    <div>If we create a KPI for <strong>Monthly Website Visitors</strong>, we could set a Goal to reach 1,000 by next month.</div>
+    <br/>
+    <div>If we create a KPI for <strong>Fundraised Money</strong>, we could set a Goal to reach $20,000 by the end of the year.  Throughout the year, we would update the value for Fundraised Money and the changes would be reflected in the goal - or goals - set.</div>
+  </div>
+</details>  
+
+  
+1. Select **Measurements** from the sidebar to create a new KPI:  
+<br/>  
+
+[![Measurements](./assets/quickstart-project-3.png)](./assets/quickstart-project-3.png)  
+<br/>  
+
+2. Create a new KPI with an initial starting value.  
+- In the event planning project example, the KPI could be `Tickets Sold`, which would have a starting value of 0 until any tickets are sold.  
+<br/>  
+
+[![Update tasks](./assets/quickstart-project-5.png)](./assets/quickstart-project-5.png)  
+<br/>  
+
+Manage all KPIs in the workspace from the **Measurements** panel.  Navigate back to the project using the breadcrumbs at the top of the workstream or by selecting it in the sidebar.  
+<br/>  
+
+3. In the **Project Goals** section of the project, select **Connect or create new project goal**:  
+  <br/>  
+
+[![Create new project goal](./assets/quickstart-project-6.png)](./assets/quickstart-project-6.png)  
+<br/>  
+
+4. Create a new **metric-based goal** with the objective, *Sell out the entire MGM Grand*, with a target value of 20,000 (because the MGM Grand can hold 20,000 people).
+<br/>  
+
+[![Set a target for the goal](./assets/quickstart-project-7.png)](./assets/quickstart-project-7.png)  
+<br/>  
+
+As tickets are sold, update the **Tickets Sold KPI** in the measurements tab.  The goal will automatically update to reflect its progress:  
+  
+<br/>  
+
+[![Update KPI](./assets/quickstart-project-8.png)](./assets/quickstart-project-8.png)  
+<br/>  
+   
+
+5. Click the **goal** in the **Project** to view, comment, or adjust it.  
+   
+<br/>  
+
+[![View updated goal](./assets/quickstart-project-9.png)](./assets/quickstart-project-9.png)  
+
+
+<br/>
+
+
+  
+## Add a workspace resource  
+  
+Create a **resource** in your workspace to help your team track and find different files, websites, and tools in the environment.  
+  
+1. Select **Resources** from the sidebar and click **Add Resource**  
+  
+[![Create resource location](./assets/quickstart-project-10.png)](./assets/quickstart-project-10.png)  
+  
+2. Fill out the new resource form.  
+    
+<details>
+  <summary><strong>What is a Resource?</strong></summary>
+  <div>
+    <div>Resources are web links with a name.</div>
+    <br/>
+    <div>Use them to make it easy to locate important documents and websites without needing bookmarks or external libraries.  You can update the Link of the resource over time without changing the name to make it easy to find the "latest" version of something that constantly changes,</div>
+  </div>
+</details> 
+  
+
+
+[![Create resource](./assets/quickstart-project-11.png)](./assets/quickstart-project-11.png)  
+  
+3. Link the **resource** with a **project**  
+  
+Navigate to the project and go to the **Resources** tab.  Click **Add Existing Resource** and select the recently created resource.  
+  
+[![Align resource](./assets/quickstart-project-12.png)](./assets/quickstart-project-12.png)  
+  
+The resource is now aligned directly with the project for quick availability to your team.  
+  
+:::info
+
+You can create resources directly in a project by selecting **New Resource** in the Resource tab
+
+:::  
+  
+## What's next?  
+  
+**Congratulations!**  There are many more things to explore in Tetheros, but you've set up a project and can get to work.  
+  
+Some suggested steps to take next:  
+- Invite your **team** to the workspace  
+- Write a  **post** to welcome everyone to the workspace  
+- View the **Assignments** and **Calendar** tabs of the project  
+- Create a **View** of your workstreams for simple management  
+- Sign up for a free `Beta` license to unlock a **Network**
