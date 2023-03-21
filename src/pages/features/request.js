@@ -25,7 +25,7 @@ export default function FeatureRequest() {
         }
     }
     return (
-        <Layout title="Report a Bug" description="Report something suspicious in Tetheros">
+        <Layout title="Request a Feature" description="Submit your incredible ideas">
         <div className="form-container">
             <h1 className="form-title">Request a feature</h1>
             <p>Use the form below to request a feature.  Provide your email if you'd like to receive progress updates.</p>

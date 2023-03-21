@@ -42,7 +42,9 @@ export default function HomepageFeatures() {
         <div>
           <div style={{color: "#666"}}>Blogs and announcements</div>
           <ul className="feature-link-list">
+            <Link to="/blog/why-operational-autonomy-matters">Why Operational Autonomy Matters</Link>
             <Link to="/blog/5-ways-to-improve-your-volunteer-team-efficiency">Five Ways to Improve Your Volunteer Team's Efficiency</Link>
+            <Link to="/blog/tetheros">The Future of Collaboration</Link>
           </ul>
         </div>
       )
@@ -54,11 +56,10 @@ export default function HomepageFeatures() {
         <div>
           <div style={{color: "#666"}}>Read about the latest updates to the Tetheros platform.</div>
           <ul className="feature-link-list">
-            <Link to="/docs/Release Notes/latest">Latest (v0.2.6)</Link>
+            <Link to="/docs/Release Notes/latest">Latest (v0.2.6.1)</Link>
+            <Link to="/docs/Release Notes/v0.2.6">Mar 15, 2023 (v0.2.6)</Link>
             <Link to="/docs/Release Notes/v0.2.5">Feb 23, 2023 (v0.2.5)</Link>
             <Link to="/docs/Release Notes/v0.2.4">Jan 15, 2023 (v0.2.4)</Link>
-            <Link to="/docs/Release Notes/v0.2.3">Dec 31, 2022 (v0.2.3)</Link>
-            <Link to="/docs/Release Notes/older">Older Releases</Link>
           </ul>
         </div>
       )

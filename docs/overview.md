@@ -59,7 +59,7 @@ Rather than forcing collaborating teams to use the same style of work (lists, bo
   
 Tetheros supports a growing catalog of ways to organize work because autonomy in the way you operate is necessary for strong collaboration.
 
-Never allow bureaucracy to force you to work in ways that don't compliment your team's personality and preferences.
+Never allow bureaucracy to force you to work in ways that don't complement your team's personality and preferences.
   
 ### 4. Meaningful Context  
   

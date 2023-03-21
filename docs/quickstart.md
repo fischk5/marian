@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Quickstart  
   
-<small>Updated for version <code>v0.2.6</code></small>  
+<small>Updated for version <code>v0.2.6.1</code></small>  
 
 Welcome to the world's most powerful professional platform for professional alignment.  
   
