@@ -3,65 +3,63 @@ id: latest
 sidebar_position: 1
 ---
 
-# Latest (v0.2.6.1)  
+# Latest (v0.2.7)  
   
 ---
 
-**Released:** March 21, 2023  
-**Focus:** Quality of life
+**Released:** March 29, 2023  
+**Focus:** List & Board Experience
 ---  
 
-Various small utility and visual improvements across the application       
+Introducing a revamped experience with lists and boards to make task management more intuitive and effective.   
   
 This release includes:  
-- **[User activity indicators:](#user-activity-indicators)** User activity shown in a tiny colorful dot 
-- **[Descriptions support rich text:](#rich-text-descriptions)** For all the bold, unordered list your heart desires 
-- **[Profile page visual improvements:](#profile-page-improvements)** Show off your best angles, now on Tetheros
-- **[Sidebar memory:](#sidebar-memory)** Stop wrestling with menus that want to stay collapsed 
-- **[Documentation link:](#documentation-link)** Want to hear a nonfiction tale based on product documentation? 
-- **Default profile picture colors:** Your default background color is based on the length of your name 
-- **Hide dashboard and templates:** No one knew what these were for, anyway 
+- **[Lists:](#lists)** To Do lists just got sleeker and more beautiful   
+- **[Boards:](#boards)** A fresh new way to move those cards to the definition of done 
+- **[Task Creation Megabar:](#task-creation-megabar)** A better way to add simple tasks to your workstreams
+- **[Task Details Modal:](#task-details-visual-update)** Some things have moved around on the task details modal
+- **Tooltip Improvements:** Board columns and long component names now have tooltips that appear when you hover over them
   
 If you'd like to know what's coming down the pipeline, check out **[the roadmap](/docs/roadmap)**.  
   
-## User Activity Indicators  
-
-From the **Users** page of any workspace, see who has recently been in Tetheros, regardless of where they spent their time.  
-
-[![User Activity](../assets/v0261-activity.png)](../assets/v0261-activity.png) 
-
-    
-## Rich Text Descriptions  
+## Lists  
+Lists have a new look to make task management far simpler than before:  
   
-Descriptions now support rich text.  These are currently rolled out for:  
-- Projects
-- Tasks
-- Goals  
+[![Lists](../assets/v027-lists.png)](../assets/v027-lists.png) 
+
+
+Nothing has changed structurally with how lists manage tasks.  The top area of the list features a new search field and a filter area to narrow to your focus.  The options to filter the list into different subsections - like owner and date - have been replaced by these new filtering and search tools.  
+
+## Boards  
+Boards have a new look and feel:  
   
-[![Rich Text](../assets/v0261-rich-text.png)](../assets/v0261-rich-text.png) 
 
-Additional supported commands (not in toolbar) include:  
-- **Bold:** CTRL + B  
-- **Italic** CTRL + I  
-- **Undo** CTRL + Z  
-- **Redo** CTRL + Shift + Z
-    
-## Profile Page Improvements  
-A fresh layout of your beautiful face.  
-
-[![Profile](../assets/v0261-profile.png)](../assets/v0261-profile.png) 
-
-    
-## Sidebar Memory  
-Your sidebar now remembers if you left it expanded or collapsed!  
+[![Boards](../assets/v027-boards.png)](../assets/v027-boards.png)  
   
-## Documentation Link  
-A quick way to read the fascinating library of Tetheros documentation in your sidebar!  
-
-[![Documentation](../assets/v0261-documentation.png)](../assets/v0261-documentation.png) 
+There is a new button for adding a column that lives on the right side of the board.  You can still add columns in specific places by hovering between columns and clicking the "+" button that appears near the top of the columns.  
   
+The *quick task* bar at the top of each column is now gone, replaced with the Megabar that spans the top.  Alternatively, you can create multiple tasks directly in a column by using the "New Task" button and choosing a state in the dropdown that appears.
+
+## Task Creation Megabar  
+
+Lists and boards now feature a single megabar near the top!  
+
+![Task Megabar](../assets/v027-task-megabar.gif)  
+  
+Typing a task into this and pressing enter will create a new task, but you can also paste multiple lines of items into the bar at once to generate many tasks at the same time.  This will currently limit creation to 50 items, and force them into the first column on the left.
+
+## Task Details Visual Update  
+
+Clicking any task opens the new task details modal: 
+
+[![Task Details](../assets/v027-task-details.png)](../assets/v027-task-details.png)  
+  
+Nothing has changed structurally, but we've made some visual improvements and updated the discussion panel on the left to a top-to-bottom approach instead of a bottom-to-top one.  Hashtags have also been moved to the discussion area.
+  
+
 ## Bugs   
-- Corrected a visual glitch where the workspace dropdown appeared below the project expansion arrow 
+- The user filter on boards no longer starts fully populated... which was confusing and unconventional (by accident... we promise)  
+- Crushed a problem where typing something near a description field would force the cursor into the description field.
   
 Find any others?  **[Let us know](/bugs/report)**  
 
