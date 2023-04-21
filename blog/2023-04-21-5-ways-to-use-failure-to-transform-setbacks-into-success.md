@@ -10,6 +10,8 @@ hide_table_of_contents: false
 Innovation requires accepting setbacks as part of progress.  
 
 Unfortunately, setbacks are ugly.  They sound fine in theory, but they never feel that way.  The actual event is often harsh and unforgiving.  To transform a setback into something we can learn from or reflect on, we have to change the way we think about it.  
+  
+<!--truncate-->
 
 Here are 5 activities to embrace as a team to use setbacks as a tool for achieving your goals.  
 
@@ -17,9 +19,9 @@ Here are 5 activities to embrace as a team to use setbacks as a tool for achievi
 
 Figuring out what went wrong needs to be a team priority.  If you can’t articulate a failure, you’re more likely to repeat it in the future.  
 
-Engineering teams at Google conduct Postmortems to learn what they can from an incident.  It involves figuring out the impact, root causes, and follow-up actions to prevent the issue from happening ever again.  Their philosophy involves ensuring documenting and understanding all the factors that contributed to a problem to build solutions that reduce the likelihood of a issue surfacing again.  Failure at Google is treated as a learning opportunity for the entire company, not a punishment.  
+Engineering teams at [Google conduct Postmortems](https://sre.google/sre-book/postmortem-culture/) to learn what they can from an incident.  It involves figuring out the impact, root causes, and follow-up actions to prevent the issue from happening ever again.  Their philosophy involves ensuring documenting and understanding all the factors that contributed to a problem to build solutions that reduce the likelihood of a issue surfacing again.  Failure at Google is treated as a learning opportunity for the entire company, not a punishment.  
 
-The military conducts After Action Reports (AAR) to analyze missions after they’re completed.  It doesn’t matter if the mission was successful or not, the AAR helps teams improve future missions by distilling an effort down to its learnings through analyzing the strengths and weaknesses of the operation.  
+The [military conducts After Action Reports (AAR)](https://www.armyupress.army.mil/Journals/Journal-of-Military-Learning/Journal-of-Military-Learning-Archives/April-2022/Cates-Action-Review/) to analyze missions after they’re completed.  It doesn’t matter if the mission was successful or not, the AAR helps teams improve future missions by distilling an effort down to its learnings through analyzing the strengths and weaknesses of the operation.  
 
 And if you don’t have time for that much structure, spend time asking “why” until reach the root cause.  Knowing what went wrong and what led to it is a powerful way to identify any shortcomings in your process, technology, environment, or decision-making skills.  
 
