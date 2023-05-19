@@ -40,11 +40,12 @@ export default function HomepageFeatures() {
       icon: 'recent',
       description: (
         <div>
-          <div style={{color: "#666"}}>Blogs and announcements</div>
+          <div style={{color: "#666"}}>Blog Posts</div>
           <ul className="feature-link-list">
-            <Link to="/blog/why-operational-autonomy-matters">Why Operational Autonomy Matters</Link>
-            <Link to="/blog/5-ways-to-improve-your-volunteer-team-efficiency">Five Ways to Improve Your Volunteer Team's Efficiency</Link>
-            <Link to="/blog/tetheros">The Future of Collaboration</Link>
+            <Link to="/blog/5-ways-to-drive-organizational-change">5 Ways To Drive Organizational Change</Link>
+            <Link to="/blog/5-ways-to-use-failure-to-transform-setbacks-into-success">5 Ways Teams Can Turn Failure Into Success</Link>
+            <Link to="/blog/5-ways-to-improve-your-volunteer-team-efficiency">5 Ways to Improve Your Volunteer Team's Efficiency</Link>
+            <Link to="/blog">All Posts</Link>
           </ul>
         </div>
       )

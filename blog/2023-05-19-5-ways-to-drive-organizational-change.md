@@ -3,10 +3,12 @@ title: "5 Effective Ways To Drive Organizational Change"
 description:  Tactics and strategies for successfully driving meaningful change in your organization
 slug: 5-ways-to-drive-organizational-change
 authors: kfischer
-tags: [tetheros, change]
+tags: [tetheros, change]  
+image: https://storage.googleapis.com/tetheros-public/blog/effective-ways-to-drive-organizational-change.png 
 hide_table_of_contents: false
 ---  
   
+![Checklist](https://storage.googleapis.com/tetheros-public/blog/effective-ways-to-drive-organizational-change.png) 
 
 Powerful teams invest in process.  
   
