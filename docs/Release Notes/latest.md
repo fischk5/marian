@@ -3,65 +3,61 @@ id: latest
 sidebar_position: 1
 ---
 
-# Latest (v0.2.7)  
+# Latest: v0.2.8
   
 ---
 
-**Released:** March 29, 2023  
-**Focus:** List & Board Experience
+**Released:** May 30, 2023  
+**Focus:** Communications Update #1
 ---  
 
-Introducing a revamped experience with lists and boards to make task management more intuitive and effective.   
+A small step towards improving the way teams communicate at work.  This release powers the ability for users to react to work and digest updates from others more efficiently.  Also included: higher calendar fidelity!   
   
 This release includes:  
-- **[Lists:](#lists)** To Do lists just got sleeker and more beautiful   
-- **[Boards:](#boards)** A fresh new way to move those cards to the definition of done 
-- **[Task Creation Megabar:](#task-creation-megabar)** A better way to add simple tasks to your workstreams
-- **[Task Details Modal:](#task-details-visual-update)** Some things have moved around on the task details modal
-- **Tooltip Improvements:** Board columns and long component names now have tooltips that appear when you hover over them
+- **[Posts:](#posts)** Your feed is not only more beautiful, but more likeable as well 👍   
+- **[Calendars:](#calendars)** Get more done from the beloved view of the calendar, now with Hi-Fi™ (not actually trademarked, sadly) 
+- **[Resources:](#resources)** Link your workspace cat pictures directly to a task, or create a new link directly from any tasks (feline-optional) 🙀
   
 If you'd like to know what's coming down the pipeline, check out **[the roadmap](/docs/roadmap)**.  
   
-## Lists  
-Lists have a new look to make task management far simpler than before:  
+## Posts  
   
-[![Lists](../assets/v027-lists.png)](../assets/v027-lists.png) 
+Posts have been updated to make team interactions more pleasant, useful, and engaging.  This includes:  
+- Visual update to how posts are displayed in your feed  
+- Introduction of the **like** reaction to posts: more to come over time  
+- New *update* posts showing progress made by the team  
+- Better notifications when people comment on your posts, or respond to something you've commented on  
 
-
-Nothing has changed structurally with how lists manage tasks.  The top area of the list features a new search field and a filter area to narrow to your focus.  The options to filter the list into different subsections - like owner and date - have been replaced by these new filtering and search tools.  
-
-## Boards  
-Boards have a new look and feel:  
+![Posts](../assets/v028-posts.jpg)  
   
-
-[![Boards](../assets/v027-boards.png)](../assets/v027-boards.png)  
   
-There is a new button for adding a column that lives on the right side of the board.  You can still add columns in specific places by hovering between columns and clicking the "+" button that appears near the top of the columns.  
+## Calendars  
+Calendars no longer try to fit everything in a tiny box.  Work is now shown more clearly while also allowing nearly-complete interactions with its items:  
+- Completing, archiving, or reactivating tasks  
+- Due date shuffles  
+- Description editing  
   
-The *quick task* bar at the top of each column is now gone, replaced with the Megabar that spans the top.  Alternatively, you can create multiple tasks directly in a column by using the "New Task" button and choosing a state in the dropdown that appears.
+It's now possible to create a new task from the calendar by clicking on a specific date.
 
-## Task Creation Megabar  
-
-Lists and boards now feature a single megabar near the top!  
-
-![Task Megabar](../assets/v027-task-megabar.gif)  
+![Calendars](../assets/v028-calendar.jpg)  
   
-Typing a task into this and pressing enter will create a new task, but you can also paste multiple lines of items into the bar at once to generate many tasks at the same time.  This will currently limit creation to 50 items, and force them into the first column on the left.
-
-## Task Details Visual Update  
-
-Clicking any task opens the new task details modal: 
-
-[![Task Details](../assets/v027-task-details.png)](../assets/v027-task-details.png)  
   
-Nothing has changed structurally, but we've made some visual improvements and updated the discussion panel on the left to a top-to-bottom approach instead of a bottom-to-top one.  Hashtags have also been moved to the discussion area.
-  
+## Resources  
+Tetheros works hard to improve how much context is available.  Adding and creating necessary resources at the **task** level is a key part of that strategy.  
 
+![Resources](../assets/v028-resources.jpg)  
+  
+  
 ## Bugs   
-- The user filter on boards no longer starts fully populated... which was confusing and unconventional (by accident... we promise)  
-- Crushed a problem where typing something near a description field would force the cursor into the description field.
   
-Find any others?  **[Let us know](/bugs/report)**  
+The Bug Squad™ (also not actually trademarked) got to work fixing these issues:  
+
+- Creating a new workstream failed when trying to align with an existing project  
+- Adding a new task to a board placed the task in the second or third position instead of the first  
+- Search bar of assignments didn't search by task name, only by description  
+- When there are too many people in a team they are cut off in the modal   
+  
+How'd we do?  Find any others?  **[Let us know](/bugs/report)**  
 
 ---  
 Product ideas?  Comments?  Haiku?  **[Send it our way](/features/request)**  

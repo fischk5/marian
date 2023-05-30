@@ -14,7 +14,7 @@ export default function Home() {
         <div className="docs-page-main-container">
         <div className="docs-page-main-product-versioning">
             <span>BETA</span>
-            <span>v0.2.7</span>
+            <span>v0.2.8</span>
           </div>
           <h1>Welcome to the Tetheros Library</h1>
           <p>Browse our documentation, API, blog, and product development references.</p>
