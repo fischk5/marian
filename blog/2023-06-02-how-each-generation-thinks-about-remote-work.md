@@ -22,7 +22,7 @@ That said there are also [reasons why we shouldn’t lean on generational lines 
 
 ### The Silent Generation [(Born 1928–1945)](https://www.parents.com/parenting/better-parenting/style/generation-names-and-years-a-cheat-sheet-for-parents/)  
   
-The oldest generation in the workforce today is the silent generation - best known for being born in the time around the Great Depression. They know remote work exists but[ they appreciate the personal touch](https://www.purdueglobal.edu/education-partnerships/generational-workforce-differences-infographic/), and they think that’s mainly done through in-person and on-paper interaction.  
+The oldest generation in the workforce today is the silent generation - best known for being born in the time around the Great Depression. They know remote work exists but [they appreciate the personal touch](https://www.purdueglobal.edu/education-partnerships/generational-workforce-differences-infographic/), and they think that’s mainly done through in-person and on-paper interaction.  
   
 ### The Boomers (Born 1946–1964)  
 
