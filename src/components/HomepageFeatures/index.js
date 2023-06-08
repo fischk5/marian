@@ -21,6 +21,25 @@ export default function HomepageFeatures() {
       ),
     },
     {
+      title: 'Recent Posts',
+      icon: 'recent',
+      description: (
+        <div>
+          <div style={{color: "#666"}}>Blog Posts</div>
+          <ul className="feature-link-list">
+            <Link to="/blog/the-rebels-guide-to-office-politics">The Rebel's Guide to Office Politics</Link>
+            <Link to="/blog/common-sources-of-organizational-misalignment-and-how-to-resolve-them">10 Common Sources of Organizational Misalignment and How To Resolve Them</Link>
+            <Link to="/blog/how-each-generation-thinks-about-remote-work">How Each Generation Thinks About Remote Work (And Why That Matters)</Link>
+            <Link to="/blog/5-ways-to-drive-organizational-change">5 Ways To Drive Organizational Change</Link>
+            <Link to="/blog">All Posts</Link>
+          </ul>
+        </div>
+      )
+    },
+    
+  ];
+  const FeatureListTwo = [
+    {
       title: 'Feedback',
       icon: 'feedback',
       description: (
@@ -29,23 +48,6 @@ export default function HomepageFeatures() {
           <ul className="feature-link-list">
             <Link to="/features/request">Request a feature</Link>
             <Link to="/bugs/report">Submit a bug</Link>
-          </ul>
-        </div>
-      )
-    }
-  ];
-  const FeatureListTwo = [
-    {
-      title: 'Recent Posts',
-      icon: 'recent',
-      description: (
-        <div>
-          <div style={{color: "#666"}}>Blog Posts</div>
-          <ul className="feature-link-list">
-            <Link to="/blog/5-ways-to-drive-organizational-change">5 Ways To Drive Organizational Change</Link>
-            <Link to="/blog/5-ways-teams-can-turn-failure-into-success">5 Ways Teams Can Turn Failure Into Success</Link>
-            <Link to="/blog/5-ways-to-improve-your-volunteer-team-efficiency">5 Ways to Improve Your Volunteer Team's Efficiency</Link>
-            <Link to="/blog">All Posts</Link>
           </ul>
         </div>
       )
