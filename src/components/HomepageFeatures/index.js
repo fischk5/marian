@@ -27,10 +27,10 @@ export default function HomepageFeatures() {
         <div>
           <div style={{color: "#666"}}>Blog Posts</div>
           <ul className="feature-link-list">
+            <Link to="/blog/how-to-deal-with-a-micromanaging-boss">How To Effectively Deal With A Micromanaging Boss</Link>
             <Link to="/blog/the-rebels-guide-to-office-politics">The Rebel's Guide to Office Politics</Link>
             <Link to="/blog/common-sources-of-organizational-misalignment-and-how-to-resolve-them">10 Common Sources of Organizational Misalignment and How To Resolve Them</Link>
             <Link to="/blog/how-each-generation-thinks-about-remote-work">How Each Generation Thinks About Remote Work (And Why That Matters)</Link>
-            <Link to="/blog/5-ways-to-drive-organizational-change">5 Ways To Drive Organizational Change</Link>
             <Link to="/blog">All Posts</Link>
           </ul>
         </div>
