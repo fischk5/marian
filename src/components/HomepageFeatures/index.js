@@ -16,6 +16,7 @@ export default function HomepageFeatures() {
             <Link to="/docs/overview">Platform Overview</Link>
             <Link to="/docs/quickstart">Quick Start Guide</Link>
             <Link to="/docs/roadmap">Product Roadmap</Link>
+            <Link to="/docs/Tetheros Pro/getting-started">Tetheros Pro</Link>
           </ul>
         </div>
       ),
