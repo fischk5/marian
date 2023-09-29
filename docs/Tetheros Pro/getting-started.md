@@ -15,7 +15,7 @@ Featuring the ability to:
 - Clearly see the big picture through **network dashboards**  
 - Fit your license to your exact size and **only pay for active network users every month**  
   
-[Start your Tetheros Pro trial today.](https://tetheros.com/settings?v=pro)  
+[Join Tetheros Pro today.](https://tetheros.com/settings?v=pro)  
   
 ---  
 **Table of Contents**:  
@@ -25,3 +25,5 @@ Featuring the ability to:
 1. [Custom roles & permissions](./custom-roles)  
 1. [Organizing groups into teams](./teams)  
 1. [Creating and using workspaces](./workspaces) 
+1. [Billing](./billing) 
+<!-- 1. [Data & Security](./data-and-security)  -->
