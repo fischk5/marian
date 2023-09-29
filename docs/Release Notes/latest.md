@@ -3,59 +3,74 @@ id: latest
 sidebar_position: 1
 ---
 
-# Latest: v0.2.8
+# Latest: v0.3.0
   
 ---
 
-**Released:** May 30, 2023  
-**Focus:** Communications Update #1
+**Released:** September 22, 2023  
+**Focus:** Communications Update #2
 ---  
 
-A small step towards improving the way teams communicate at work.  This release powers the ability for users to react to work and digest updates from others more efficiently.  Also included: higher calendar fidelity!   
+A proper *smörgåsbord* of updates for improving clarity, personality, and visual improvements.  But mostly the clarity.   
   
 This release includes:  
-- **[Posts:](#posts)** Your feed is not only more beautiful, but more likeable as well 👍   
-- **[Calendars:](#calendars)** Get more done from the beloved view of the calendar, now with Hi-Fi™ (not actually trademarked, sadly) 
-- **[Resources:](#resources)** Link your workspace cat pictures directly to a task, or create a new link directly from any tasks (feline-optional) 🙀
+- **[My Desk:](#my-desk)** See more of what you care about in a new, more interactive My Desk view   
+- **[Workspace Dashboard:](#workspace-dashboard)** The workspace dashboard has been restored, in case you want to micromanage your team
+- **[Workspace Banners:](#workspace-banners)** Let your freak flag fly
   
 If you'd like to know what's coming down the pipeline, check out **[the roadmap](/docs/roadmap)**.  
   
-## Posts  
-  
-Posts have been updated to make team interactions more pleasant, useful, and engaging.  This includes:  
-- Visual update to how posts are displayed in your feed  
-- Introduction of the **like** reaction to posts: more to come over time  
-- New *update* posts showing progress made by the team  
-- Better notifications when people comment on your posts, or respond to something you've commented on  
+## My Desk  
 
-![Posts](../assets/v028-posts.jpg)  
+My Desk now displays information in a list format:  
   
-  
-## Calendars  
-Calendars no longer try to fit everything in a tiny box.  Work is now shown more clearly while also allowing nearly-complete interactions with its items:  
-- Completing, archiving, or reactivating tasks  
-- Due date shuffles  
-- Description editing  
-  
-It's now possible to create a new task from the calendar by clicking on a specific date.
 
-![Calendars](../assets/v028-calendar.jpg)  
+![My Desk](../assets/v030-mydesk.png)  
   
+The new display is interactive, allowing you to check things off your list without leaving the comfort of your desk.  
   
-## Resources  
-Tetheros works hard to improve how much context is available.  Adding and creating necessary resources at the **task** level is a key part of that strategy.  
+It also includes all your unread notifications, expanding your ability to focus on what's in front of you without needlessly navigating the rest of Tetheros.
 
-![Resources](../assets/v028-resources.jpg)  
+
+## Workspace Dashboard  
+
+The workspace dashboard features a high level glance at everything you got going on:  
   
+![Dashboard](../assets/v030-dashboard.png)  
+  
+Currently featuring:  
+- **Assignments:** All tasks, projects, and goals  
+- **Work Distribution:** Where all current assignments stand and who they're assigned to  
+- **Calendar:** Tasks with due dates are plotted out for review and management  
+  
+To view the dashboard, simply click `Dashboard` on the left-side panel in a workspace.  
+
+## Workspace Banners  
+
+Display a banner at the top of your workspace!    
+   
+![Banners](../assets/v030-banner.png)  
+  
+Customize the banner from the workspace settings.  You must have the appropriate privilege to make this change.  
+  
+Recommended size: 2400px x 280px  
+
+  
+## Minor Updates  
+  
+Too small to get an entire section, too large to ignore:  
+- Workspace feeds can now be filtered by user posts or updates  
+- Updated landing page design  
+- Added a calendar to the Network page  
+- Calendar cells are bottomless now  
+- Visual improvements to the project page  
+- KPIs display their open goals 
   
 ## Bugs   
   
-The Bug Squad™ (also not actually trademarked) got to work fixing these issues:  
+The latest release also dealt with these issues:  
 
-- Creating a new workstream failed when trying to align with an existing project  
-- Adding a new task to a board placed the task in the second or third position instead of the first  
-- Search bar of assignments didn't search by task name, only by description  
-- When there are too many people in a team they are cut off in the modal   
+- Workspace sidebar no longer bugs out because of stickiness
   
 How'd we do?  Find any others?  **[Let us know](/bugs/report)**  
 

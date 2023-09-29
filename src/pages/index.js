@@ -13,10 +13,9 @@ export default function Home() {
       <header>
         <div className="docs-page-main-container">
         <div className="docs-page-main-product-versioning">
-            <span>BETA</span>
-            <span>v0.2.8</span>
+            <span>v0.3.0</span>
           </div>
-          <h1>Welcome to the Tetheros Library</h1>
+          <h1>Welcome to the Tetheros Help Desk</h1>
           <p>Browse our documentation, API, blog, and product development references.</p>
           <div className="docs-page-main-cta">
             <Link className="button button--secondary button--lg" to="/docs/quickstart">Quick start guide <HiOutlineArrowNarrowRight/></Link>
