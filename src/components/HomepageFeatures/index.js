@@ -13,7 +13,7 @@ export default function HomepageFeatures() {
         <div>
           <div style={{color: "#666"}}>Learn how Tetheros can help you achieve your mission with clarity.</div>
           <ul className="feature-link-list">
-            <Link to="/docs/overview">About</Link>
+            <Link to="/docs/getting-started">About</Link>
             <Link to="/docs/quickstart">Quick Start</Link>
             {/* <Link to="/docs/roadmap">Product Roadmap</Link> */}
             <Link to="/docs/Tetheros Pro/getting-started">Tetheros Pro</Link>
