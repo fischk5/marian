@@ -1,6 +1,7 @@
 ---
 id: latest
 sidebar_position: 1
+sidebar_class_name: hidden
 ---
 
 # Latest: v0.3.0

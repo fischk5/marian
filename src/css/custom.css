@@ -230,6 +230,10 @@ textarea {
   padding: 16px;
 }
 
+.hidden {
+  display: none !important;
+}
+
 @media screen and (max-width: 996px) {
   .docs-page-main-container h1 {
     font-size: 32px;

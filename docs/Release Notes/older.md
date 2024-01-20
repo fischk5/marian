@@ -1,6 +1,7 @@
 ---
 id: Older
 sidebar_position: 10000
+sidebar_class_name: hidden
 ---
 
 # Older  

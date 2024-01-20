@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+id: 'quickstart'
 ---  
 
 # Quickstart  
@@ -263,4 +264,4 @@ Some suggested steps to take next:
 - Write a  **post** to welcome everyone to the workspace  
 - View the **Assignments** and **Calendar** tabs of the project  
 - Create a **View** of your workstreams for simple management  
-- Sign up for a free `Beta` license to unlock a **Network**
+- Sign up for **Tetheros Pro**

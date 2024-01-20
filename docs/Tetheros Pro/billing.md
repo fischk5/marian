@@ -35,7 +35,7 @@ Welcome to the billing information page for [Tetheros](https://tetheros.com/welc
 An active user is an account that meets all of the following criteria:  
 - Is a member of the network  
 - Has any permissions - whether directly to a network workspace or on a team - beyond View only  
-- Takes a `billable action` inside a network workspace or management portal ([full list of billable actions available here](./billable-actions))  
+- Takes a `billable action` inside a network workspace or management portal. **[Full list of billable actions available here.](./billable-actions)**  
   
 You can review active users in your network and manage your subscription from two places:  
 1. In the Network Settings page (Billing tab)  

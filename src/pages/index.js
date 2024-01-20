@@ -13,7 +13,7 @@ export default function Home() {
       <header>
         <div className="docs-page-main-container">
         <div className="docs-page-main-product-versioning">
-            <span>v0.3.0</span>
+            <span>v0.4.2</span>
           </div>
           <h1>Welcome to the Tetheros Help Desk</h1>
           <p>Browse our documentation, API, blog, and product development references.</p>
@@ -21,7 +21,7 @@ export default function Home() {
             <Link className="button button--secondary button--lg" to="/docs/quickstart">Quick start guide <HiOutlineArrowNarrowRight/></Link>
           </div>
           <div className="release-notes">
-            <Link to="/docs/Release Notes/latest">Read the latest release notes here</Link>
+            <Link to="/docs/release-notes">Read the latest release notes here</Link>
           </div>
         </div>
       </header>
