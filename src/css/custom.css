@@ -43,8 +43,6 @@ textarea {
 }
 
 .feature-link-list {
-  list-style: none;
-  list-style-type: none;
   padding: 0;
   margin: 0;
   margin-top: 1em;
@@ -234,6 +232,57 @@ textarea {
   display: none !important;
 }
 
+.convertkit-form-heading {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.convertkit-form-subheading {
+  font-size: 16px;
+  color: grey;
+}
+
+.convertkit-form {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+
+}
+
+.convertkit-form input {
+  font-size: 16px;
+  padding: 12px 24px;
+  padding-left: 8px;
+  width: 300px;
+  font-family: -apple-system, 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+
+}
+
+.convertkit-form button,
+.convertkit-button-invalid {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-family: -apple-system, 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+  background-color: #3d72aa;
+  border: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.convertkit-form-container {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+}
+
 @media screen and (max-width: 996px) {
   .docs-page-main-container h1 {
     font-size: 32px;
@@ -250,5 +299,9 @@ textarea {
 
   .docs-page-main-container p {
     font-size: 16px;
+  }
+
+  .convertkit-form {
+    width: unset;
   }
 }

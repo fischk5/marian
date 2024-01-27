@@ -3,6 +3,7 @@ import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 require('../../css/custom.css')
 import { BsRocketTakeoff, BsMailbox, BsJournalBookmarkFill, BsCloudUpload } from 'react-icons/bs'
+import ConvertkitForm from '../ConvertkitForm';
 
 export default function HomepageFeatures() {
   const FeatureList = [
@@ -12,13 +13,13 @@ export default function HomepageFeatures() {
       description: (
         <div>
           <div style={{color: "#666"}}>Learn how Tetheros can help you achieve your mission with clarity.</div>
-          <ul className="feature-link-list">
+          <div className="feature-link-list">
             <Link to="/docs/getting-started">About</Link>
             <Link to="/docs/quickstart">Quick Start</Link>
             {/* <Link to="/docs/roadmap">Product Roadmap</Link> */}
             <Link to="/docs/Tetheros Pro/getting-started">Tetheros Pro</Link>
             <Link to="/docs/release-notes">Product Updates</Link>
-          </ul>
+          </div>
         </div>
       ),
     },
@@ -28,11 +29,11 @@ export default function HomepageFeatures() {
       description: (
         <div>
           <div style={{color: "#666"}}>Engage directly with the development team</div>
-          <ul className="feature-link-list">
+          <div className="feature-link-list">
             <Link to="/features/request">Request a feature</Link>
             <Link to="/bugs/report">Submit a bug</Link> 
             <Link to="/docs/Tetheros Pro/billing">Billing</Link>
-          </ul>
+          </div>
         </div>
       )
     },
@@ -40,11 +41,12 @@ export default function HomepageFeatures() {
   ];
   return (
     <>
-    <section className={styles.features}>
+    <div className={styles.features}>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
-    </section>
+    </div>
+    <ConvertkitForm/>
     </>
   );
 }
@@ -64,7 +66,7 @@ function Feature({title, description, icon}) {
           <div className="feature-icon-outer">{getIcon()}</div>
           <h3 style={{fontSize: "28px", fontWeight: 600}}>{title}</h3>
         </div>
-        <p>{description}</p>
+        <div>{description}</div>
       </div>
     </div>
   );

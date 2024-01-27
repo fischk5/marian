@@ -2,7 +2,7 @@ const React = require('react')
 import { useReducer } from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
-import { BsBugFill } from 'react-icons/bs'
+import { BsBugFill, BsFillLightbulbFill } from 'react-icons/bs'
 const emailEngine = require('../../components/common/email-handler.js')
 
 export default function FeatureRequest() {
@@ -41,8 +41,8 @@ export default function FeatureRequest() {
                     <div className="form-section-subheading">Optional.  We'll use this strictly to communicate about this feature.</div>
                     <input type="email" placeholder="Enter your email address" value={proposedSubmission.contact} onChange={(e) => proposedSubmissionDispatch({type: "update_contact", value: e.target.value })} />
                 </div>
-                {isSubmittable() && <button onClick={submit}><BsBugFill/>Submit feature idea</button>}
-                {!isSubmittable() && <button style={{cursor: "default", backgroundColor: "grey"}}><BsBugFill/>Submit feature idea</button>}
+                {isSubmittable() && <button onClick={submit}><BsFillLightbulbFill/>Submit feature idea</button>}
+                {!isSubmittable() && <button style={{cursor: "default", backgroundColor: "grey"}}><BsFillLightbulbFill/>Submit feature idea</button>}
             </div>
             }
             {proposedSubmission.submitted &&
