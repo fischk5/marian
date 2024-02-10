@@ -4,6 +4,24 @@ id: 'release-notes'
 ---
 # Product Updates  
   
+## v0.4.3 
+*Released February 10, 2024*  
+
+**Major Changes**  
+- Primary Messages portal compatible with desktop and mobile (collective workspace chat)  
+  
+**Minor Changes**  
+- Filter by owner in the assignments table  
+- Redesigned workstream menu  
+- My Desk now displays the column name for board tasks  
+- Support a setting for workstreams to show or hide the progress bar
+
+**Fixed Bugs**  
+- Fixed visual bug where calendar modal displayed in a static location  
+- Fixed bug where workstreams were deleted if a timeline was deleted that referenced them  
+- Fixed visual bug where date selection modal was hidden in the task modal  
+- Fix bug where sorting by owner in an assignments table didn't work
+  
   
 ## v0.4.2  
 *Released January 20, 2024*  

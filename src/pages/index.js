@@ -13,7 +13,7 @@ export default function Home() {
       <header>
         <div className="docs-page-main-container">
         <div className="docs-page-main-product-versioning">
-            <span>v0.4.2</span>
+            <span>v0.4.3</span>
           </div>
           <h1>Welcome to the Tetheros Help Desk</h1>
           <p>Browse our documentation, API, blog, and product development references.</p>
